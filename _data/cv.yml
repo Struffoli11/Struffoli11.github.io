@@ -1,10 +1,10 @@
 cv:
   name: Antonio Pedicini
-  label: Master's Degree Student in Electronics Engineering for Automation and Sensing
+  label: Master's Degree Student
   email: antoniopedicini3124@gmail.com
   location: San Giorgio del Sannio, IT
   image: "profile.jpg"
-  summary: "Master’s student in Electronic Engineering specializing in Automation, with a Bachelor’s degree in Computer Engineering. Passionate about embedded systems, IoT, and machine learning. Experienced in programming languages such as C/C++, Python, and Java. Skilled in microcontroller programming, sensor integration, and data analysis. Eager to apply my knowledge and skills to real-world projects and contribute to the field of automation and sensing technology."
+  summary: "Master’s Degree Student in Electronic Engineering specializing in Automation, with a Bachelor’s degree in Computer Engineering. Passionate about embedded systems, IoT, and machine learning. Experienced in programming languages such as C/C++, Python, and Java. Skilled in microcontroller programming, sensor integration, and data analysis. Eager to apply my knowledge and skills to real-world projects and contribute to the field of automation and sensing technology."
 
   social_networks:
     - network: GitHub
@@ -81,12 +81,12 @@ cv:
 
     Projects:
       - name: A Data-Driven Testbench for Fault Detection of UAV Propellers
-        summary: Developed an automated, cost-effective testbench for UAV propeller fault diagnosis using Machine Learning algorithms for a Bachelor's Thesis.
+        summary: Worked on an automated, cost-effective testbench for UAV propeller fault diagnosis using Machine Learning algorithms for a Bachelor's Thesis.
         end_date: 2024-10-31
         highlights:
-          - "Managed data acquisition of mechanical vibrations using an Arduino-based system."
-          - "Trained and evaluated classification models (SVM, KNN, Decision Trees) using Python and scikit-learn."
-          - "Successfully detected unbalanced loads yielding competitive performance."
+          - "Managed data acquisition of mechanical vibrations using a custom testbench."
+          - "Trained and evaluated classification models using MATLAB and the Diagnosis Feature Designer."
+          - "Successfully classified faults in UAV propellers."
 
       - name: Computational Thermoelectric Generator Model Study & Optimization
         summary: Developed a computational model of a polymer-based Thermoelectric Generator (TEG) using COMSOL Multiphysics to evaluate performance under thermal conditions typical of aircraft flight scenarios.
@@ -102,15 +102,14 @@ cv:
         end_date: 2025-11-06
         highlights:
           - "Developed Arduino firmware to sample measurements from a reference digital flow rate sensor."
-          - "Designed the signal conditioning circuit for acquiring the analog Device Under Test (DUT) output."
+          - "Designed the signal conditioning circuit for acquiring the analog flow rate sensor (Device Under Test (DUT)) output."
           - "Automated the generation of prototype Digital Calibration Certificates (DCC) upon procedure completion, significantly streamlining post-test documentation."
 
       - name: Bridgeless Boost PFC Converter Control Strategies Comparison
         summary: Evaluated the performance of three distinct control strategies for the Bridgeless Boost PFC Converter (BBC) through averaged and small-signal modeling techniques.
         end_date: 2026-05-05
         highlights:
-          - "Implemented and compared the cascaded PI/PR and Lyapunov-based inner control loops."
-          - "Utilized the dynamic phasors approach using an SOGI-PLL."
+          - "Implemented and compared the cascaded PI/PR, Lyapunov-based inner control loops in the stationary reference frame against the dynamic phasors approach using an SOGI-PLL in the rotating reference frame."
       
       - name: Reinforcement Learning for Chess Endgames
         summary: Explored Deep Reinforcement Learning to solve the King and Queen versus King endgame, applying a Deep Q-learning (DQN) approach to train an autonomous agent.
